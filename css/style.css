@@ -511,11 +511,15 @@ img {
 	font-family: "roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
 	display: inline-block;
 	margin-bottom: 16px;
+}
+
+.form-labbel {
+	display: flex;
 }
 
 .footer-message-block {
@@ -567,13 +571,17 @@ img {
 .input-footer {
 	width: 264px;
 	height: 40px;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.04em;
 	border-radius: 4px;
 	margin-right: 24px;
 	background-color: transparent;
 	outline: none;
 	border: 1px solid #ffffff;
-	padding: 8px 16px;
-	box-shadow: 0px 4px 4px 0px #00000026;
+	padding-left: 16px;
+	box-shadow: 0px 4px 4px 0px 0.15;
+	color: #ffffff;
 }
 
 .input-footer::placeholder {
@@ -586,12 +594,13 @@ img {
 }
 
 .button-footer {
+	font-family: "roboto" sans-serif;
 	outline: none;
-	width: 165px;
+	min-width: 165px;
 	height: 40px;
 	font-size: 16px;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.04em;
 	display: flex;
 	align-items: center;
@@ -599,7 +608,12 @@ img {
 	border: none;
 	border-radius: 4px;
 	color: #ffffff;
-	justify-content: space-around;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.svg-footer-btn {
+	margin-left: 16px;
 }
 
 .footer-email {
