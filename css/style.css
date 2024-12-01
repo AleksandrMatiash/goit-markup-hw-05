@@ -520,6 +520,7 @@ img {
 
 .form-labbel {
 	display: flex;
+	gap: 24px;
 }
 
 .footer-message-block {
