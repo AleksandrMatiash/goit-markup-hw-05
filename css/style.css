@@ -808,6 +808,15 @@ input[type="checkbox"]:checked+.model-label-five svg {
 
 }
 
+.price-policy {
+	color: var(--link-color, #4d5ae5);
+	text-decoration: none;
+}
+
+.price-policy:hover {
+	text-decoration: underline;
+}
+
 .span-checkbox {
 	width: 16px;
 	height: 16px;
