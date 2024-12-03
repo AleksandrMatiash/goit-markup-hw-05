@@ -803,10 +803,10 @@ img {
 	color: #8e8f99;
 }
 
+/* 
 input[type="checkbox"]:checked+.model-label-five svg {
 	fill: #f4f4fd;
-
-}
+} */
 
 .price-policy {
 	color: var(--link-color, #4d5ae5);
@@ -830,8 +830,6 @@ input[type="checkbox"]:checked+.model-label-five svg {
 
 }
 
-
-
 .btm {
 	font-weight: 500;
 	line-height: 1.5;
@@ -849,13 +847,4 @@ input[type="checkbox"]:checked+.model-label-five svg {
 .privacy-policy {
 	color: #4d5ae5;
 
-}
-
-input:checked+.model-label-five .span-checkbox {
-	background-color: #404bff;
-	border: none;
-}
-
-input:checked+.model-label-five .span-checkbox svg {
-	fill: #f4f4fd;
 }
