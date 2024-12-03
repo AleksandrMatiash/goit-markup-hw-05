@@ -752,6 +752,10 @@ img {
 	position: relative;
 }
 
+.input-div input:focus+svg {
+	fill: #4D5AE5;
+}
+
 .model-svg {
 	position: absolute;
 	left: 16px;
