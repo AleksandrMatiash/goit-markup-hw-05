@@ -796,14 +796,19 @@ img {
 	margin-bottom: 24px;
 }
 
-.model-label-six {
+.model-label-five {
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: #8e8f99;
 }
 
-.span-chekbox {
+input[type="checkbox"]:checked+.model-label-five svg {
+	fill: #f4f4fd;
+
+}
+
+.span-checkbox {
 	width: 16px;
 	height: 16px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
@@ -813,5 +818,22 @@ img {
 	align-items: center;
 	justify-content: center;
 	fill: transparent;
+
+}
+
+
+
+.btm {
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	background-color: #4D5AE5;
+	cursor: pointer;
+	border: none;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	min-width: 169px;
+	height: 56px;
+	border-radius: 4px;
 
 }
