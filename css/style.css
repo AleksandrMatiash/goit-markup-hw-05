@@ -657,7 +657,7 @@ img {
 .model-form {
 	display: flex;
 	justify-content: center;
-	align-items: start;
+	align-items: stretch;
 	flex-direction: column;
 }
 
@@ -844,5 +844,18 @@ input[type="checkbox"]:checked+.model-label-five svg {
 	min-width: 169px;
 	height: 56px;
 	border-radius: 4px;
+}
 
+.privacy-policy {
+	color: #4d5ae5;
+
+}
+
+input:checked+.model-label-five .span-checkbox {
+	background-color: #404bff;
+	border: none;
+}
+
+input:checked+.model-label-five .span-checkbox svg {
+	fill: #f4f4fd;
 }
