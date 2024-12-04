@@ -569,7 +569,7 @@ img {
 }
 
 .button-footer {
-	font-family: "roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 	outline: none;
 	min-width: 165px;
 	height: 40px;
@@ -804,14 +804,12 @@ img {
 	fill: transparent;
 }
 
-input:checked+label.span-checkbox {
+.visually-hidden:checked+.model-label-five>.span-checkbox {
 	background-color: #404bff;
 	border: none;
-}
-
-input:checked+label.span-checkbox svg {
 	fill: #f4f4fd;
 }
+
 
 .btm {
 	font-weight: 500;
