@@ -805,7 +805,7 @@ img {
 }
 
 .visually-hidden:checked+.model-label-five>.span-checkbox {
-	background-color: #404bff;
+	background-color: #404bbf;
 	border: none;
 	fill: #f4f4fd;
 }
